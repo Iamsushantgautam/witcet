@@ -1,0 +1,30 @@
+
+
+.notes {
+   text-align:left;
+   padding:50px;
+   height:300px;
+   width:calc(100% - 80px);
+   margin:0px;
+   border: 1px solid #ccc;
+   background-color:white;
+    border-radius:20px;
+    box-shadow: 10 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+ 
+    
+@media screen and (max-width: 1024px) {
+  .notes {
+   text-align:left;
+   padding:40px;
+   height:calc(100% - 10px);
+   width:calc(100% - 80px);
+   margin:5px;
+   border: 1px solid #ccc;
+   background-color:white;
+    border-radius:20px;
+    box-shadow: 10 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+}

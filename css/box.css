@@ -1,0 +1,40 @@
+.top,.top2{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px,10px));
+        gap:10px;
+       
+    justify-content:center;
+    }
+
+  .image-box {
+
+    text-align:center;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0faff;
+    border-radius: 80px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .image-box img {
+
+    max-width:100%;
+    height: auto;
+
+  }
+
+  .image-caption {
+
+    margin-top: 10px;
+    font-size: 12px;
+
+  }
+
+   .image-box:hover {
+
+    transform: scale(1.09);
+
+  }

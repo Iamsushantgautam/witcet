@@ -1,0 +1,36 @@
+.image-box {
+   text-align: center;
+   height:calc(100% - 10px);
+   width:calc(100% - 80px);
+   margin:40px;
+   border: 1px solid #ccc;
+    background-color:white;
+    border-radius:100px;
+    box-shadow: 10 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .image-box img {
+    display:block;
+    height:40px;
+    width:40px;
+    border-radius:10%;
+    margin:7px;
+    margin-left:8px;
+    padding:8px;
+    float:left;
+    }
+    .image-caption{
+     padding-bottom:2px;
+     text-decoration: none;
+     color: black;
+     
+    }
+ 
+   .image-box:hover {
+    transform: scale(1.05);
+    cursor:progress ;
+  }
+  a{
+    text-decoration: none;
+  }

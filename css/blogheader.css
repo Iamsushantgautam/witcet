@@ -1,0 +1,34 @@
+.home-blog{
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 20px 29px;
+  text-align: left;
+    margin: 15px;
+   
+    border-radius: 8px;
+background-color:white;
+box-shadow: 2px 5px 14px 3px rgb(8 8 8 / 7%);
+        /*editor of box*/
+           }
+           
+           
+  .home-blog h2{
+   font-size: 26px;
+ Text-align:left;
+    line-height:5px;
+    padding-right:10%;
+   display: inline-block;
+    font-weight: 600;
+    
+ /*editor of our blog*/
+           }
+           
+.home-blog a{
+    float: right;
+    padding: 1px 20px;
+    background: #ff3164;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: 10px;
+    text-decoration:none;
+           }
+           <!--editor of vier more-->
