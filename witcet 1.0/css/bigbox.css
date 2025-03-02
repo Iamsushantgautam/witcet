@@ -1,0 +1,55 @@
+
+  
+
+
+
+
+.bb{
+ align-items: center;
+ justify-self: center;
+ text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+          
+}
+
+.big-box {
+
+   height: 200px;
+   width:300px;
+   margin:30px;
+   border: 1px solid #ccc;
+    background-color:white;
+    border-radius:20px;
+    box-shadow: 10 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .big-box img {
+  text-align: center;
+    display:block;
+    height:80px;
+    width:80px;
+    border-radius:10%;
+    margin:37px;
+    margin-left:110px;
+    padding:8px;
+    float:center;
+    }
+    
+    .box-caption{
+      align-items: center;
+      text-align: center;
+      justify-content: center; 
+     text-decoration: none;
+     color: black;
+     
+    }
+ 
+   .big-box:hover {
+    transform: scale(1.05);
+    cursor:progress ;
+  }
+  
+

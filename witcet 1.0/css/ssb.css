@@ -1,0 +1,34 @@
+.ssb{
+    align-items: center;
+  justify-self: center;
+  text-align: center;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around;
+  }
+    .image-box {
+      text-align:center;
+      margin:8px;
+      width: 200px;
+      padding: 10px;
+      border: 1px solid cccc;
+      background-color:white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      
+    }
+  
+    .image-box img {
+      width: 12vh;
+      height: auto;
+      
+    }
+  
+    .image-caption {
+      margin-top: 10px;
+      font-size: 14px;
+      
+    }
+     .image-box:hover {
+      transform: scale(1.05);
+    }

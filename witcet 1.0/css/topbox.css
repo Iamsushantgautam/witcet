@@ -1,0 +1,49 @@
+
+.topbox{
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around;
+   
+           
+ }
+ 
+ .tb-box {
+ 
+    height: calc(100% - 100px);
+    width: 420hv;
+    margin:30px;
+    border: 1px solid #ccc;
+     background-color:white;
+     border-radius:20px;
+     box-shadow: 10 2px 4px rgba(0, 0, 0, 0.1);
+     
+   }
+ 
+   .tb-box img {
+   text-align: center;
+     display:block;
+     height:50px;
+     padding:10px;
+     float:left;
+     margin-left: 5px;
+     margin-right: 10px;
+     }
+     
+     .tb-caption{
+       padding-right: 10px;
+       padding-top: 5px;
+       align-items:center;
+       text-align: center;
+       justify-content: center; 
+      text-decoration: none;
+      color: black;
+      float: left;
+      
+     }
+  
+   
+   
+ 
